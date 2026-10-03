@@ -13,3 +13,14 @@ else:
         print("Parabéns! Você acertou.")
     else:
         print("Errou! Eu pensei no número " + str(computador) + ".")
+
+
+        print("Qual a velocidade do seu carro?")
+        velocidade = int(input("Digite a velocidade: "))
+       
+        if velocidade > 80:
+            print("Você está acima da velocidade permitida! Multado.")
+            multa = (velocidade - 80) * 7.00
+            print("O valor da multa é R$" + str(multa))
+        else:
+            print("Você está dentro da velocidade permitida.")
